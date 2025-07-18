@@ -4,6 +4,7 @@ This project involves building a Bash-based tool to monitor live network traffic
 Here's a more detailed explanation of each command used in the Bash script, following the same sequence, with definitions, syntax, and one relevant example for each:
 
 1. echo
+
 Definition:
 echo is used to display text or variables on the terminal. It's commonly used to give prompts, status messages, or outputs within shell scripts.
 When used with the -e option, it interprets escape sequences like \n (new line), \t (tab), and \c (no newline at end).
@@ -19,6 +20,7 @@ This displays the prompt on the same line, waiting for user input (\c suppresses
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. read
+
 Definition:
 read is used to accept input from the user and store it into one or more variables. It reads a line from standard input and splits it into fields.
 
@@ -33,6 +35,7 @@ This stores the user’s input into the variable in.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. date
+
 Definition:
 date displays the system date and time. You can format the output using +FORMAT, such as year (%Y), month (%m), day (%d), hour (%H), etc.
 
@@ -47,6 +50,7 @@ This saves the current timestamp in the format YYYY-MM-DD_HH-MM-SS to the variab
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. ls
+
 Definition:
 ls lists the contents of a directory. The -a option includes hidden files (those starting with .).
 
@@ -61,6 +65,7 @@ This lists all files including hidden ones in the current directory.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5. grep
+
 Definition:
 grep is a command-line utility for searching plain-text data for lines that match a regular expression. It filters input line by line.
 
@@ -75,6 +80,7 @@ This checks if Logs exists in the output of ls -a.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6. if [ condition ] ... else ... fi
+
 Definition:
 Used to perform conditional execution. if evaluates a condition inside square brackets, and executes the corresponding block if true; otherwise, it executes the else block.
 
@@ -97,6 +103,7 @@ This checks if the variable c1 equals "Logs", and creates it if not.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7. mkdir
+
 Definition:
 mkdir is used to create directories. The -p option ensures that no error is shown if the directory already exists, and creates parent directories as needed.
 
@@ -111,6 +118,7 @@ Creates the Logs directory if it doesn’t exist.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 8. tcpdump --version
+
 Definition:
 Displays the installed version of tcpdump, which is a command-line packet analyzer used for network traffic monitoring and troubleshooting.
 
@@ -125,6 +133,7 @@ Extracts just the word tcpdump from the version output to check if it’s instal
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 9. awk
+
 Definition:
 awk is a powerful text-processing command that allows manipulation and extraction of data from text files or command outputs.
 
@@ -139,6 +148,7 @@ Prints the first field (word) from each line of input.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10. sudo apt install
+
 Definition:
 Installs software packages on Debian-based systems (like Kali Linux). sudo runs the command with superuser privileges, while apt is the package manager.
 
@@ -153,6 +163,7 @@ Installs the tcpdump tool if it’s not already installed.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11. tcpdump
+
 Definition:
 A powerful command-line packet analyzer used to capture and display network packets. Great for network diagnostics and monitoring.
 
@@ -175,6 +186,7 @@ sudo tcpdump -i "$in" -w "$CAPTURE_FILE" -G "$du" -W 1 -n
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 12. tcpdump -r
+
 Definition:
 Reads packets from a capture file and prints them in a human-readable format.
 
@@ -189,6 +201,7 @@ Reads and displays the first 10 lines of the captured packets.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 13. head
+
 Definition:
 Displays the first few lines of a file or output.
 
@@ -203,6 +216,7 @@ Shows the first 10 lines of input.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 14. >>
+
 Definition:
 Appends output to a file without overwriting the existing content.
 

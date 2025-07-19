@@ -1,0 +1,15 @@
+[+] Session Timestamp: 
+Captured file: Capture/capture_2025-07-18_03-57-26.pcap
+Report file: Reports/report_2025-07-18_03-57-26.txt
+Duration:  seconds on 
+---------------------------------------------------
+[+] Session Timestamp: 2025-07-18_03-59-46
+Captured file: Capture/capture_2025-07-18_03-59-46.pcap
+Report file: Reports/report_2025-07-18_03-59-46.txt
+Duration: 3 seconds on eth0
+---------------------------------------------------
+[+] Session Timestamp: 2025-07-18_04-12-59
+Captured file: Capture/capture_2025-07-18_04-12-59.pcap
+Report file: Reports/report_2025-07-18_04-12-59.txt
+Duration: 2 seconds on eth0
+---------------------------------------------------
